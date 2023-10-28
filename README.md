@@ -7,7 +7,7 @@ Wallet script to create wallets/purses items as stashes.
 * Robbable
 * Only Stores items that weigh 0.0
   
--  Add the following items to shared.lua/items.lua
+Add the following items to shared.lua/items.lua
 
 ```lua
 ["wallet"]              = {["name"] = "wallet",         ["label"] = "Leather Wallet", 		    ["weight"] = 2000, 		["type"] = "item", 		["image"] = "backpack.png", ["unique"] = true, 	["useable"] = true, 	["shouldClose"] = true,	   	["combinable"] = nil,   ["description"] = "Leather Wallet"},
@@ -24,7 +24,7 @@ Wallet script to create wallets/purses items as stashes.
 
 ```
 
-- Make the following changes in inventory/html/app.js to display the backpack id when you hover over the item (optional)
+Make the following changes in inventory/html/app.js to display the backpack id when you hover over the item (optional)
 
 Look for this logic
 ```js
