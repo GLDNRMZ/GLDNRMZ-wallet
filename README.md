@@ -1,5 +1,5 @@
-# snipe-backpack
-Backpack script to create backpack items as stashes
+# lb-wallet
+Wallet script to create wallets/purses items as stashes
 
 
 -  Add the following items to shared.lua/items.lua
