@@ -33,37 +33,43 @@ else if (itemData.name == "labkey") {
 and add the following lines below it, like this
 
 ```js
-else if (itemData.name == "wallet") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Wallet ID: " + itemData.info.walletid + "</p>");
-} else if (itemData.name == "lvwallet") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Louis Vuitton Wallet ID: " + itemData.info.walletid + "</p>");
-} else if (itemData.name == "gucciwallet") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Gucci Wallet ID: " + itemData.info.walletid + "</p>");
-} else if (itemData.name == "spadeclutch") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Kate Spade Clutch ID: " + itemData.info.clutchid + "</p>");
-} else if (itemData.name == "spadepurse") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Kate Spade Purse ID: " + itemData.info.purseid + "</p>");
-} else if (itemData.name == "lvclutch") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Louis Vuitton Clutch ID: " + itemData.info.clutchid + "</p>");
-} else if (itemData.name == "lvpurse") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Louis Vuitton Purse ID: " + itemData.info.purseid + "</p>");
-} else if (itemData.name == "gucciclutch") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Gucci Clutch ID: " + itemData.info.clutchid + "</p>");
-} else if (itemData.name == "guccipurse") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Gucci Purse ID: " + itemData.info.purseid + "</p>");
-} else if (itemData.name == "chanelclutch") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Chanel Clutch ID: " + itemData.info.clutchid + "</p>");
-} else if (itemData.name == "chanelpurse") {
-$(".item-info-title").html("<p>" + itemData.label + "</p>");
-$(".item-info-description").html("<p>Chanel Purse ID: " + itemData.info.purseid + "</p>");
-}
+else if (itemData.name == "labkey") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Lab: " + itemData.info.lab + "</p><p style=\"font-size:11px\"><b>Weight: </b>" + itemData.weight + " | <b>Amount: </b> " + itemData.amount + " | <b>Quality: </b> " + "<a style=\"font-size:11px;color:green\">" + Math.floor(itemData.info.quality) + "</a>");
+        } else if (itemData.name == "labkey") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Lab: " + itemData.info.lab + "</p>");
+        } else if (itemData.name == "wallet") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Wallet ID: " + itemData.info.walletid + "</p>");
+        } else if (itemData.name == "lvwallet") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Louis Vuitton Wallet ID: " + itemData.info.walletid + "</p>");
+        } else if (itemData.name == "gucciwallet") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Gucci Wallet ID: " + itemData.info.walletid + "</p>");
+        } else if (itemData.name == "spadeclutch") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Kate Spade Clutch ID: " + itemData.info.clutchid + "</p>");
+        } else if (itemData.name == "spadepurse") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Kate Spade Purse ID: " + itemData.info.purseid + "</p>");
+        } else if (itemData.name == "lvclutch") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Louis Vuitton Clutch ID: " + itemData.info.clutchid + "</p>");
+        } else if (itemData.name == "lvpurse") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Louis Vuitton Purse ID: " + itemData.info.purseid + "</p>");
+        } else if (itemData.name == "gucciclutch") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Gucci Clutch ID: " + itemData.info.clutchid + "</p>");
+        } else if (itemData.name == "guccipurse") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Gucci Purse ID: " + itemData.info.purseid + "</p>");
+        } else if (itemData.name == "chanelclutch") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Chanel Clutch ID: " + itemData.info.clutchid + "</p>");
+        } else if (itemData.name == "chanelpurse") {
+            $(".item-info-title").html("<p>" + itemData.label + "</p>");
+            $(".item-info-description").html("<p>Chanel Purse ID: " + itemData.info.purseid + "</p>");
+        }
