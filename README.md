@@ -1,7 +1,12 @@
 # lb-wallet
-Wallet script to create wallets/purses items as stashes
 
+Wallet script to create wallets/purses items as stashes.
 
+* Original Backpack Script by [snipe-scripts](https://github.com/snipe-scripts/snipe-backpack)
+* Deconvolutes Inventory
+* Robbable
+* Only Stores items that weigh 0.0
+  
 -  Add the following items to shared.lua/items.lua
 
 ```lua
