@@ -1,4 +1,4 @@
-# lb-wallet
+# GLDNRMZ-wallet
 
 Wallet script to create wallets/purses items as stashes.
 
